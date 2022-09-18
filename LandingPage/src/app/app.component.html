@@ -1,0 +1,17 @@
+<div class="container-fluid p-0">
+       <div class="row header-pane g-0" [ngClass]="{'fix-head':fix}">
+        <div class="col-12 g-0">
+            <app-header></app-header>
+        </div>
+       </div>
+       <div class="row g-0" [ngStyle]="{'margin-top':fix===true ? '108px' : '0px'}">
+        <div class="col-12 g-0">
+             <router-outlet></router-outlet> 
+            <!-- <div style="width: 600px;height: 1000px;background-color: red;">
+               <h1 style="color: white;">Hello World!!</h1>
+            </div> -->
+        </div> 
+       </div>   
+</div>
+
+<div class="scroll-topbtn" *ngIf="fix" (click)="scrollPageTop()"><div>↑</div></div>

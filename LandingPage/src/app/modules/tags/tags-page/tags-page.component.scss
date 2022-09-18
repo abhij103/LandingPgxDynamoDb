@@ -1,0 +1,26 @@
+.tags-parent{
+    height: 100px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    .tags{
+          width: 40px;
+          border-radius: 3px;
+          height: 25px;
+          border: 1px solid black;
+    }
+    
+}
+.tags-parent::-webkit-scrollbar {
+    display: none;
+}
+.mvbtn{
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    border:1px solid black;
+    align-self: center;
+    padding-left: 8px;
+    cursor: pointer;
+}

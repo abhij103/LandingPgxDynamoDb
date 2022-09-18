@@ -1,0 +1,28 @@
+.scroll-topbtn{
+    position: fixed;
+    font-size: 25px;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.header-pane{
+    height: 64px;
+    border: 1px solid black;
+}
+.fix-head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    z-index:1
+}
